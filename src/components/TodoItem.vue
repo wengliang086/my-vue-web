@@ -7,7 +7,7 @@ export default {
   props: ["content", "index"],
   methods: {
     handleDelete() {
-      //   alert(this.index);
+      // alert(this.index);
       //触发父主键的delete event事件，并把index传过去
       this.$emit("delete", this.index);
     }
